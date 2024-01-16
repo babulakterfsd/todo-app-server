@@ -16,7 +16,7 @@ app.get('/', (req: Request, res: Response) => {
   res.status(httpStatus.OK).json({
     success: true,
     statusCode: httpStatus.OK,
-    message: 'Welcome to React and Redux todo Server',
+    message: 'Welcome to React and Redux todo Server made by Babul Akter',
     data: null,
   });
 });

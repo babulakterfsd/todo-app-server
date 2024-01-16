@@ -23,7 +23,8 @@ const getAllTodosFromDB = async () => {
 
 //update a todo in db
 const updateTodoInDB = async (id: string, requestBody: TTodo) => {
-  const todoToBeUpdated = await TodoModel.findById(id);
+  const todoToBeUpdated = await TodoModel.findOne({ id: id });
+
   if (!todoToBeUpdated) {
     throw new Error('Todo not found');
   } else {
