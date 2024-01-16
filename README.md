@@ -20,7 +20,7 @@
 
 ### server live link
 
-- https://todo-server-babulakterfsd.vercel.app
+- https://todo-app-server-bay.vercel.app
 
 ### live site link
 
