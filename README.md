@@ -1,3 +1,27 @@
-### quick server for a todo app 
+# Todo App Server
 
- #### live link: (https://react-ts-tailwind-quick-starter.vercel.app/todo)
+## Features
+
+- add todo
+- get todos
+- update todo
+- delete todo
+- filter todos by status
+
+## technologies:
+
+- TypeScript, Node.js, Express.js, MongoDB, Mongoose, Zod validation
+
+## How to run
+
+- First, clone the repo and install the dependencies using `npm install` command.
+- then, build the project using `npm run build` command.
+- at last, run the project using `npm run start:dev` command.
+
+### server live link
+
+- https://todo-server-babulakterfsd.vercel.app
+
+### live site link
+
+- https://react-ts-tailwind-quick-starter.vercel.app/todo
