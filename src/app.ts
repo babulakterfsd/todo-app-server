@@ -22,7 +22,7 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 // application routes
-app.use('/api', router);
+app.use('/', router);
 
 //global error handler
 app.use(globalErrorHandler);
